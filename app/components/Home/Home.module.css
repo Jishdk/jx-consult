@@ -1,0 +1,31 @@
+.intro {
+  background-image: url(../../images/rings.png);
+  background-position: 10% 100%;
+  background-size: 39%;
+}
+
+.highlighter {
+  background-image: url("../../images/highlighter.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: 0 33px;
+  padding-bottom: 33px;
+  background-size: 175px;
+}
+
+@media screen and (max-width: 640px) {
+  .intro {
+    background-position: 10% 10%;
+    background-size: 70%;
+  }
+}
+
+@media screen and (max-width: 1536px) {
+  .intro {
+    background-position: 10% 65%;
+  }
+
+  .highlighter {
+    background-size: 130px;
+  }
+}

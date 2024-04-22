@@ -1,0 +1,22 @@
+.content:after {
+  content: "";
+  width: -webkit-fill-available;
+  height: 100%;
+  background: rgb(222 148 255 / 12%);
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 25px;
+}
+
+@media screen and (min-width: 1024px) {
+  .contentLeft:after {
+    margin-right: -30%;
+  }
+
+  .contentRight:after {
+    margin-left: -30%;
+    z-index: 1;
+  }
+}

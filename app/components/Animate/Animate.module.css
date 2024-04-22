@@ -1,0 +1,31 @@
+.slideEnter {
+  transform: translateX(10%);
+  opacity: 0;
+}
+
+.slideEnterActive {
+  transform: translateX(0%);
+  opacity: 1;
+  transition: transform 300ms ease-in-out, opacity 200ms ease-in-out;
+}
+
+.slideEnterDone {
+  transform: translateX(0%);
+  opacity: 1;
+}
+
+.slideExit {
+  transform: translateX(0%);
+  opacity: 1;
+}
+
+.slideExitActive {
+  transform: translateX(-10%);
+  opacity: 0;
+  transition: transform 300ms ease-in-out, opacity 200ms ease-in-out;
+}
+
+.slideExitDone {
+  transform: translateX(-10%);
+  opacity: 0;
+}
